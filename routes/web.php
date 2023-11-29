@@ -132,3 +132,7 @@ Route::middleware(['auth'])->group(function () {
     Route::resource('/user', 'UserController');
   });
 });
+	
+ //Route::get('/debug-sentry', function () {
+ //   throw new Exception('My first Sentry error 2!');
+ //});
