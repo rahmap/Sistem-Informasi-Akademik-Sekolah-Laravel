@@ -133,6 +133,6 @@ Route::middleware(['auth'])->group(function () {
   });
 });
 	
- //Route::get('/debug-sentry', function () {
- //   throw new Exception('My first Sentry error 2!');
- //});
+ Route::get('/debug-sentry', function () {
+    throw new Exception('My first Sentry error 3!');
+ });
